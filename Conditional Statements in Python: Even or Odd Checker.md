@@ -13,15 +13,14 @@ To write a Python program to check whether the given number is **even** or **odd
 
 ## 🧾 Program
 ```
-c1=4+2j
-
-c2=5+3j
-c3=c1+c2
-print(c3)
+a = int(input("Enter a number: "))
+if a % 2 == 0:
+    print("EVEN")
+else:
+    print("ODD")
 ```
 ## Output
-<img width="285" height="145" alt="image" src="https://github.com/user-attachments/assets/1467afdd-36c7-4b49-bf04-a395f4497327" />
-
+<img width="390" height="315" alt="1" src="https://github.com/user-attachments/assets/b56cc56b-b48e-4eeb-8c24-245955c88c67" />
 
 ## Result
-Thus, the Python program to add two complex numbers was successfully written and executed, and the correct output was obtained.
+Thus the Python Program for determining whether the given number is odd or even has been executed successfully and the output has been verified.
